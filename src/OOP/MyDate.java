@@ -17,6 +17,18 @@ public class MyDate {
 		System.out.println("Day: " + this.day);
 	}
 	
+	public void printMonth() {
+		System.out.println("Day: " + this.month);
+	}
+	
+	public void printYear() {
+		System.out.println("Day: " + this.year);
+	}
+	
+	public void printDate() {
+		System.out.println("date: " + this.day + " - " + this.month +  " - " + this.year );
+	}
+	
 	
 	
 
