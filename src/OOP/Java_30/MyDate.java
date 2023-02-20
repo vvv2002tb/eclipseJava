@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Java_30;
 
 public class MyDate {
 	private int day;
