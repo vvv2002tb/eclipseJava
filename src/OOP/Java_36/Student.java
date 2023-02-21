@@ -101,7 +101,7 @@ public class Student {
 
 
 	public void displayNameDepartment() {
-		System.out.println(className.getNameDerpartment());
+		System.out.println("Khoa: " + className.getNameDerpartment());
 	}
 	
 	public boolean checkScoreMoreFive() {
