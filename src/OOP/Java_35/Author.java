@@ -29,6 +29,12 @@ public class Author {
 	public void setBirthDay(Date birthDay) {
 		this.birthDay = birthDay;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Author [nameAuthor=" + nameAuthor + ", birthDay=" + birthDay + "]";
+	}
 	
 	
 	

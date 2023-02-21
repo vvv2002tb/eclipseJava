@@ -40,6 +40,13 @@ public class Book {
 		System.out.println("name book: " + this.getNameBook());
 	}
 	
+	
+	
+	@Override
+	public String toString() {
+		return "Book [nameBook=" + nameBook + ", price=" + price + ", yearPublic=" + yearPublic + ", author=" + author
+				+ "]";
+	}
 	public boolean checkSameYear(Book otherBook) {
 //		if(this.yearPublic == otherBook.yearPublic ) {
 //			return true;

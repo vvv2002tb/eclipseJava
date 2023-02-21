@@ -1,6 +1,12 @@
 package OOP.Java_35;
 
 public class Date {
+	@Override
+	public String toString() {
+		return "Date [day=" + day + ", month=" + month + ", year=" + year + "]";
+	}
+
+
 	private int day;
 	private int month;
 	private int year;

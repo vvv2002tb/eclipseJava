@@ -18,6 +18,11 @@ public class Main {
 		sach2.printNameBook();
 		sach3.printNameBook();
 		
+		System.out.println(sach1);
+		System.out.println(sach2);
+		System.out.println(sach3);
+	
+		
 		System.out.println("so sanh nam xuat ban sach 1 va 2: " + sach1.checkSameYear(sach2));
 		System.out.println("so sanh nam xuat ban sach 1 va 3: " + sach1.checkSameYear(sach3));
 		
