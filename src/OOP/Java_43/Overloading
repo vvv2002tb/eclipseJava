@@ -1,1 +1,5 @@
-Overloading là việc tạo ra nhiều phương thức trong 1 lớp có chung teen nhưng khác tham số truyền vào 
+Overloading là việc tạo ra nhiều phương thức trong 1 lớp có chung teen nhưng khác tham số truyền vào
+
+=> phụ thuộc vào tham số truyền vào  
+
+Nạp chồng (overload) là việc định nghĩa nhiều phương thức cùng tên trong cùng một lớp, nhưng có các danh sách tham số khác nhau. Các phương thức này phải khác nhau ít nhất về danh sách tham số, kiểu dữ liệu tham số hoặc số lượng tham số.

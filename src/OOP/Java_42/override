@@ -1,0 +1,2 @@
+Ghi đè (override) là việc khai báo lại một phương thức trong lớp con với cùng tên và các tham số đầu vào giống với phương thức trong lớp cha. Khi đối tượng lớp con gọi đến phương thức đã được ghi đè, phương thức trong lớp con sẽ được thực thi thay vì phương thức trong lớp cha.
+
