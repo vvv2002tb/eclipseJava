@@ -48,8 +48,8 @@ public class Main {
 				Random xucXac3 = new Random();
 				
 				int value1 = xucXac1.nextInt(5) + 1;
-				int value2 = xucXac1.nextInt(5) + 1;
-				int value3 = xucXac1.nextInt(5) + 1;
+				int value2 = xucXac2.nextInt(5) + 1;
+				int value3 = xucXac3.nextInt(5) + 1;
 				
 				int tong = value1 + value2 + value3;
 				
@@ -69,9 +69,9 @@ public class Main {
 					}
 					
 				} else {
+					if (tong >=11 && tong <= 18) {
 					System.out.println("ket qua: Tai");
-					if (luaChonTaiXiu == 1) {
-						moneyPlayer += mucCuoc*0.95;
+					moneyPlayer += mucCuoc*0.95;
 						System.out.println("Ban da thang +" + mucCuoc*0.95);
 						System.out.println("So Du: " + numf.format(moneyPlayer));
 					} else {
